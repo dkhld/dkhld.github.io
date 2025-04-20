@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title>记录使用问题</title>
-      <link href="/2025/04/19/%E8%AE%B0%E5%BD%95%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98/"/>
-      <url>/2025/04/19/%E8%AE%B0%E5%BD%95%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98/</url>
+      <title>Markdown语法</title>
+      <link href="/2025/04/20/Markdown%E8%AF%AD%E6%B3%95/"/>
+      <url>/2025/04/20/Markdown%E8%AF%AD%E6%B3%95/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p> 一些语法规则<br> <span id="more"></span></p><h4 id="Markdown-标题"><a href="#Markdown-标题" class="headerlink" title="Markdown 标题"></a>Markdown 标题</h4><blockquote><p>#一级标题<br>##二级标题<br>###三级标题<br>… </p></blockquote><p> 标题均为若干个 # 加空格组成,应为独立的一行，并且其上、下应各为一个空白行。  </p><h4 id="Markdown-段落"><a href="#Markdown-段落" class="headerlink" title="Markdown 段落"></a>Markdown 段落</h4><p> Markdown不同于常规的Word文档，空白行是“切换段落”（分段）用的，并不会渲染成“空行”。因此，在段落后面使用一个空行，以表示重新开始一个段落。</p><h4 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h4><p> 文字倾斜：用 * 左右包起来即可<br> 文字加粗：用两个**包起来即可 </p><h4 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h4><p> 要创建块引用，请在段落前添加一个 &gt; 符号。 </p><h4 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h4><p> 行内式：通过一对 &#96; 包裹单行代码&#x2F;文字实现；</p><p>代码块：通过一对 &#96;&#96;&#96;包裹实现，可以指定代码的编程语言，如Python、JavaScript、Rust等，如果渲染器支持，将实现语法高亮；</p><p>缩进式：通过缩进至少四个空格实现，部分支持语法高亮。 </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">if (isAwesome)&#123;</span><br><span class="line">  return true</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h4 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h4><p>要创建分隔线，请在单独一行上使用三个或多个星号（***）、破折号（—）或下划线（___），并且不能包含其他内容。<br> <img src="/images/tree.png" alt="背景"></p>]]></content>
       
       
       
